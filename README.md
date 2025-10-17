@@ -32,7 +32,7 @@ Download isaacgym
 Train and play
 
 1. train:
-```python legged_gym/scripts/train.py --task=a1_amp --headless``
+```python legged_gym/scripts/train.py --task=a1_amp --headless```
     - To run on CPU add following arguments: `--sim_device=cpu`, `--rl_device=cpu` (sim on CPU and rl on GPU is possible).
     - To run headless (no rendering) add `--headless`.
     - **Important**: To improve performance, once the training starts press `v` to stop the rendering. You can then enable it later to check the progress.
