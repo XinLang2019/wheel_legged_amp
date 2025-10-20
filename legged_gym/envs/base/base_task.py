@@ -85,7 +85,7 @@ class BaseTask():
         else: 
             self.privileged_obs_buf = None
             # self.num_privileged_obs = self.num_obs
-
+        
         self.extras = {}
 
         # create envs, sim and viewer
